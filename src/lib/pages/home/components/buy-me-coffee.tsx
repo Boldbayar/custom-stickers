@@ -2,7 +2,11 @@ import { Box, Link } from '@chakra-ui/react';
 
 export const BuyMeCoffee = () => {
   return (
-    <Link href="https://buymeacoffee.com/khaliunaa_sketches">
+    <Link
+      _hover={{ textDecoration: 'none' }}
+      display="inline-block"
+      href="https://buymeacoffee.com/khaliunaa_sketches"
+    >
       <Box
         _hover={{
           transform: 'translateY(-3px)',
