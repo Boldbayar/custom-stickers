@@ -212,7 +212,7 @@ export const PixelEditor = ({ initialImage }: PixelEditorProps) => {
         />
       </Box>
 
-      <HStack justify="center" mt="4" spacing="3" wrap="wrap">
+      <HStack justify="center" mt="4" wrap="wrap">
         <Input
           border="none"
           onChange={(e) => setColor(e.target.value)}
